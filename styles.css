@@ -102,6 +102,7 @@ img, .right{
     padding: 10px;
     padding-left: 480px;
     padding-right: 480px;  
+    padding-bottom: 80px;
 }
 
 .shirt img{
@@ -129,3 +130,67 @@ img, .right{
     font-weight: lighter;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-right: 550px;
+    padding-left: 550px;
+}
+
+.words {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    justify-content: left;
+}
+
+.author {
+    font-size: 28px;
+    display: flex;
+    justify-content: right;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 50px;
+    width: fit-content;
+    column-gap: 140px;
+    padding-right: 130px;
+    padding-left: 130px;
+    border-radius: 5px;
+}
+
+.action {
+    font-size: 26px;
+    color: white;
+}
+
+#unique {
+    background-color: #3882F6;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center; 
+    padding: 40px;   
+    font-size: 20px;
+}
