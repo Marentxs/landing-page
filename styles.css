@@ -10,7 +10,7 @@ html, body {
 .header {
     background-color: #1F2937;
     color: white;
-    height: 400px;
+    height: 530px;
 
 }
 
@@ -18,11 +18,16 @@ html, body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding-right: 50px;
 }
 
 .links, .text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.text{
+    padding-right: 50px;
 }
 
 .logo {
@@ -57,16 +62,70 @@ ul {
     padding-left: 450px;
 }
 
-.right {
-    padding-right: 450px;
-}
-
 .signup {
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: cornflowerblue;
     padding-right: 25px;
     padding-left: 25px;
     color: white;
     font-size: 20px;
 }
+
+.button {
+    padding-top: 10px;
+}
+
+.right {
+    padding-right: 450px; /*contenedor de la imagen*/
+}
+img, .right{  
+    width: 100%;  /*imagen en si*/
+    height: 100%;
+    max-height: 250px;
+    max-width: 500px;  
+}  
+
+.random {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    padding: 40px;
+}
+
+.bigcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 480px;
+    padding-right: 480px;  
+}
+
+.shirt img{
+    border: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 25px;
+    height: 180px;
+    width: 180px;
+}
+
+.container {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext {
+    text-align: center; /*VERY IMPORTANT BRO*/
+    padding-top: 8px;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    font-weight: lighter;
+}
+
