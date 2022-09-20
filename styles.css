@@ -1,0 +1,72 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    height: 400px;
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.links, .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.firstpart {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.links li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.secondpart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    padding-left: 450px;
+}
+
+.right {
+    padding-right: 450px;
+}
+
+.signup {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+    font-size: 20px;
+}
