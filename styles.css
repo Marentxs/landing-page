@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  padding: 10px 250px 80px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 250px;
+}
+
+.links {
+  gap: 16px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.content-header {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.portrait {
+  height: 200px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+}
