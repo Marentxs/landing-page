@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: antiquewhite;
-  padding: 10px 500px 80px;
+  padding: 10px 400px 80px;
 }
 
 .upper {
@@ -87,4 +87,34 @@ button {
   list-style: none;
   padding: 0;
   align-items: flex-start;
+}
+
+.quote {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 400px;
+}
+
+.footer {
+  padding: 80px 400px;
+  background-color: grey;
+}
+
+.content-footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.bottom {
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: center;
 }
